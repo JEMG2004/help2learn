@@ -22,7 +22,6 @@ import { useAuth0 } from '@auth0/auth0-react'
 import LogoutButton from "../components/Logout";
 import Call from "../components/Call";
 import { useNavigate } from 'react-router-dom';
-import image1 from '../assets/calculo.png';
 
 export default function Main() {
   const { user, isAuthenticated } = useAuth0();
@@ -55,7 +54,7 @@ export default function Main() {
           <MDBCol lg="8">
             <MDBCard>
               <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                <MDBCardImage src={image1} fluid alt='...' />
+                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
                 <a>
                   <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
                 </a>
