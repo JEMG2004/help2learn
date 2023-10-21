@@ -24,7 +24,34 @@ import Call from "../components/Call";
 import { useNavigate } from 'react-router-dom';
 
 export default function Main() {
+<<<<<<< HEAD
   const { user, isAuthenticated } = useAuth0();
+=======
+  const { user,isAuthenticated } = useAuth0();
+  const navigate = useNavigate();
+  console.log(user)
+const cardContent = [
+  {
+    imageSrc: image1,
+    title: 'Card 1 Title',
+    text: 'Content for Card 1...',
+  },
+  {
+    imageSrc: image2,
+    title: 'Card 2 Title',
+    text: 'Content for Card 2...',
+  },
+  {
+    imageSrc: image3,
+    title: 'Card 3 Title',
+    text: 'Content for Card 3...',
+  },{
+    imageSrc: image4,
+    title: 'Card 3 Title',
+    text: 'Content for Card 3...',
+  },
+];
+>>>>>>> 79f0f0854f2720e745332b40f8ebedcb6f6e6e90
 
   const navigate = useNavigate();
 
