@@ -13,7 +13,7 @@ const LoginButton = () => {
   }
   
 
-  return <MDBBtn rounded className="mb-4 px-5" style={{backgroundColor: "#b7056f", color: '#fff'}} size='lg' onClick={() => { routeChange(); loginWithRedirect({redirect_uri: 'http://localhost:3000/main'})}}>Log In</MDBBtn>
+  return <MDBBtn rounded className="mb-4 px-5" style={{backgroundColor: "#162934", color: '#fff'}} size='lg' onClick={() => { routeChange(); loginWithRedirect({redirect_uri: 'http://localhost:3000/main'})}}>Log In</MDBBtn>
 };
 
 export default LoginButton;

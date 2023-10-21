@@ -43,7 +43,7 @@ export default function Main() {
                   className="rounded-circle"
                   style={{ width: '150px' }}
                   fluid />
-                <p className="text-muted mb-1">Welcome back {user.given_name}!</p>
+                <p className="text-muted mb-1">Bienvenido de nuevo {user.given_name}!</p>
                 <LogoutButton />
                 <div className="d-flex justify-content-center mb-2">
                 </div>
@@ -60,9 +60,9 @@ export default function Main() {
                 </a>
               </MDBRipple>
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Cálculo</MDBCardTitle>
                 <MDBCardText>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  ¡Encuentra asesorías con los más expertos en cálculo!
                 </MDBCardText>
                 <MDBBtn href='#'>Button</MDBBtn>
               </MDBCardBody>
