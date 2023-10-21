@@ -15,7 +15,6 @@ export default function Main() {
   const { user,isAuthenticated } = useAuth0();
   const navigate = useNavigate();
   console.log(user)
-  // Main.js
 const cardContent = [
   {
     imageSrc: image1,
