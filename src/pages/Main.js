@@ -9,6 +9,8 @@ import image1 from '../assets/calculo.png';
 import image2 from '../assets/historia.png';
 import image3 from '../assets/programacion.png';
 import image4 from '../assets/quimica.png';
+import image5 from '../assets/Fisica.png';
+import image6 from '../assets/Biologia.png';
 
 export default function Main() {
   const { user,isAuthenticated } = useAuth0();
@@ -43,15 +45,15 @@ const cardContent = [
     buttonLText: 'Click here to more information',
   },
   {
-    imageSrc: image1,
-    title: 'Chemistry Consulting',
-    text: 'The best Chemistry Consulting',
+    imageSrc: image5,
+    title: 'Physics Consulting',
+    text: 'The best Physics Consulting',
     buttonLText: 'Click here to more information',
   },
   {
-    imageSrc: image4,
-    title: 'Chemistry Consulting',
-    text: 'The best Chemistry Consulting',
+    imageSrc: image6,
+    title: 'Biology Consulting',
+    text: 'The best Biology Consulting',
     buttonLText: 'Click here to more information',
   },
 ];
