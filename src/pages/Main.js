@@ -17,22 +17,30 @@ export default function Main() {
 const cardContent = [
   {
     imageSrc: image1,
-    title: 'Card 1 Title',
-    text: 'Content for Card 1...',
+    title: 'Asesorias en Calculo',
+    text: 'E ',
+    buttonLText: 'hola',
+    buttonLink: 'https://mdbootstrap.com/docs/react/components/cards/#!'
   },
   {
     imageSrc: image2,
-    title: 'Card 2 Title',
+    title: 'Asesorias en Historia',
     text: 'Content for Card 2...',
+    buttonLText: '',
+    buttonLink: 'https://chat.openai.com/c/54b0c2ca-15fe-4667-9616-2c231c5c8944'
   },
   {
     imageSrc: image3,
-    title: 'Card 3 Title',
+    title: 'Asesorias en Programacion',
     text: 'Content for Card 3...',
+    buttonLText: '',
+    buttonLink: 'https://bard.google.com/chat/6ecb2a2035fa8848'
   },{
     imageSrc: image4,
-    title: 'Card 3 Title',
+    title: 'Asesorias en Quimica',
     text: 'Content for Card 3...',
+    buttonLText: '',
+    buttonLink: 'https://stackoverflow.com/questions/37644265/correct-path-for-img-on-react-js',
   },
 ];
 
@@ -56,14 +64,35 @@ const cardContent = [
             </MDBCard>
           </MDBCol>
           <MDBCol lg="8">
-          {cardContent.map((card, index) => (
+            <MDBRow>
+          {cardContent.slice(0,2).map((card, index) => (
+            <MDBCol key={index} md="6">
               <Card
                 key={index}
                 imageSrc={card.imageSrc}
                 title={card.title}
                 text={card.text}
+                buttonText={card.buttonLText}
+                buttonLink={card.buttonLink}
+      
               />
+              </MDBCol>
             ))}
+            </MDBRow>
+            <MDBRow>
+            {cardContent.slice(2,4).map((card, index) => (
+            <MDBCol key={index} md="6">
+              <Card
+                key={index}
+                imageSrc={card.imageSrc}
+                title={card.title}
+                text={card.text}
+                buttonText={card.buttonLText}
+                buttonLink={card.buttonLink}
+              />
+              </MDBCol>
+            ))}
+              </MDBRow>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
