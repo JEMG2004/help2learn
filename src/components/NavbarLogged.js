@@ -16,7 +16,7 @@ function NavbarLogged() {
                 <Link className="nav-link" to="/main" style={{color: '#fff'}}></Link>
              </li>
              <li className="nav-item">
-                <Link className="nav-link" to="/main" style={{color: '#fff'}}>Profile</Link>
+                <Link className="nav-link" to="/Profile" style={{color: '#fff'}}>Profile</Link>
              </li>
            </ul>
          </div>
