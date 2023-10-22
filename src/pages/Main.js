@@ -17,9 +17,9 @@ export default function Main() {
 const cardContent = [
   {
     imageSrc: image1,
-    title: 'Asesorias en Calculo',
-    text: 'E ',
-    buttonLText: 'hola',
+    title: 'Calculus Consulting',
+    text: 'The best Calculus Consulting',
+    buttonLText: 'Click here to more infomation',
     buttonLink: 'https://mdbootstrap.com/docs/react/components/cards/#!'
   },
   {
